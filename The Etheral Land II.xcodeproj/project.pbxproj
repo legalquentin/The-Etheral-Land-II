@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		662BF54D1E4367EC00F79995 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 662BF54C1E4367EC00F79995 /* ResourcePath.mm */; };
-		662BF5501E4367EC00F79995 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF54F1E4367EC00F79995 /* main.cpp */; };
-		662BF5531E4367EC00F79995 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5521E4367EC00F79995 /* cute_image.jpg */; };
-		662BF5551E4367EC00F79995 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5541E4367EC00F79995 /* nice_music.ogg */; };
-		662BF5571E4367EC00F79995 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5561E4367EC00F79995 /* sansation.ttf */; };
-		662BF5591E4367EC00F79995 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5581E4367EC00F79995 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +15,6 @@
 		662BF54B1E4367EC00F79995 /* The Etheral Land II-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Etheral Land II-Info.plist"; sourceTree = "<group>"; };
 		662BF54C1E4367EC00F79995 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		662BF54E1E4367EC00F79995 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		662BF54F1E4367EC00F79995 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		662BF5521E4367EC00F79995 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		662BF5541E4367EC00F79995 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		662BF5561E4367EC00F79995 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		662BF5581E4367EC00F79995 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +47,9 @@
 		662BF5491E4367EC00F79995 /* The Etheral Land II */ = {
 			isa = PBXGroup;
 			children = (
-				662BF54C1E4367EC00F79995 /* ResourcePath.mm */,
-				662BF54E1E4367EC00F79995 /* ResourcePath.hpp */,
-				662BF54F1E4367EC00F79995 /* main.cpp */,
+				662BF5611E43685D00F79995 /* Headers */,
+				662BF5601E43685400F79995 /* Source */,
+				662BF55F1E43683900F79995 /* RessourcePath */,
 				662BF5511E4367EC00F79995 /* Resources */,
 				662BF54A1E4367EC00F79995 /* Supporting Files */,
 			);
@@ -77,12 +67,31 @@
 		662BF5511E4367EC00F79995 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				662BF5521E4367EC00F79995 /* cute_image.jpg */,
-				662BF5541E4367EC00F79995 /* nice_music.ogg */,
-				662BF5561E4367EC00F79995 /* sansation.ttf */,
-				662BF5581E4367EC00F79995 /* icon.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		662BF55F1E43683900F79995 /* RessourcePath */ = {
+			isa = PBXGroup;
+			children = (
+				662BF54C1E4367EC00F79995 /* ResourcePath.mm */,
+				662BF54E1E4367EC00F79995 /* ResourcePath.hpp */,
+			);
+			name = RessourcePath;
+			sourceTree = "<group>";
+		};
+		662BF5601E43685400F79995 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		662BF5611E43685D00F79995 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662BF5591E4367EC00F79995 /* icon.png in Resources */,
-				662BF5571E4367EC00F79995 /* sansation.ttf in Resources */,
-				662BF5551E4367EC00F79995 /* nice_music.ogg in Resources */,
-				662BF5531E4367EC00F79995 /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662BF5501E4367EC00F79995 /* main.cpp in Sources */,
 				662BF54D1E4367EC00F79995 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

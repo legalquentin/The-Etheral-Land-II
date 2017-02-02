@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		662BF54D1E4367EC00F79995 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 662BF54C1E4367EC00F79995 /* ResourcePath.mm */; };
+		662BF5641E4369C700F79995 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF5621E4369C700F79995 /* Main.cpp */; };
+		662BF5671E436F4400F79995 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF5651E436F4400F79995 /* Menu.cpp */; };
+		662BF56A1E436F5400F79995 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF5681E436F5400F79995 /* Player.cpp */; };
+		662BF56D1E436F8200F79995 /* Animator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF56B1E436F8200F79995 /* Animator.cpp */; };
+		662BF5701E4370B900F79995 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF56E1E4370B900F79995 /* Scene.cpp */; };
+		662BF5721E437A1A00F79995 /* Ambient.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5711E437A1A00F79995 /* Ambient.ogg */; };
+		662BF57A1E437AB400F79995 /* ForestCave.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5751E437AB400F79995 /* ForestCave.png */; };
+		662BF57B1E437AB400F79995 /* GreatWaterfalls.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5761E437AB400F79995 /* GreatWaterfalls.png */; };
+		662BF57C1E437AB400F79995 /* MysticCave.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5771E437AB400F79995 /* MysticCave.png */; };
+		662BF57D1E437AB400F79995 /* SolaireBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5781E437AB400F79995 /* SolaireBackground.png */; };
+		662BF57E1E437AB400F79995 /* WaterFall.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5791E437AB400F79995 /* WaterFall.png */; };
+		662BF5841E437ADC00F79995 /* ErrantCrusader.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5801E437ADC00F79995 /* ErrantCrusader.png */; };
+		662BF5851E437ADC00F79995 /* ErrantMage.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5811E437ADC00F79995 /* ErrantMage.png */; };
+		662BF5861E437ADC00F79995 /* ErrantRanger.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5821E437ADC00F79995 /* ErrantRanger.png */; };
+		662BF5871E437ADC00F79995 /* ErrantRogue.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5831E437ADC00F79995 /* ErrantRogue.png */; };
+		662BF58A1E437AF100F79995 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF5891E437AF100F79995 /* Button.png */; };
+		662BF58E1E437AFE00F79995 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF58B1E437AFE00F79995 /* icon.png */; };
+		662BF58F1E437AFE00F79995 /* interface.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF58C1E437AFE00F79995 /* interface.png */; };
+		662BF5901E437AFE00F79995 /* MysticCave.png in Resources */ = {isa = PBXBuildFile; fileRef = 662BF58D1E437AFE00F79995 /* MysticCave.png */; };
+		662BF5931E437B3C00F79995 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF5911E437B3C00F79995 /* Game.cpp */; };
+		662BF5961E437B7C00F79995 /* Tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 662BF5941E437B7C00F79995 /* Tools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +36,34 @@
 		662BF54B1E4367EC00F79995 /* The Etheral Land II-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Etheral Land II-Info.plist"; sourceTree = "<group>"; };
 		662BF54C1E4367EC00F79995 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		662BF54E1E4367EC00F79995 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		662BF5621E4369C700F79995 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		662BF5631E4369C700F79995 /* Main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Main.hpp; sourceTree = "<group>"; };
+		662BF5651E436F4400F79995 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		662BF5661E436F4400F79995 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		662BF5681E436F5400F79995 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		662BF5691E436F5400F79995 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		662BF56B1E436F8200F79995 /* Animator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animator.cpp; sourceTree = "<group>"; };
+		662BF56C1E436F8200F79995 /* Animator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animator.hpp; sourceTree = "<group>"; };
+		662BF56E1E4370B900F79995 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		662BF56F1E4370B900F79995 /* Scene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Scene.hpp; sourceTree = "<group>"; };
+		662BF5711E437A1A00F79995 /* Ambient.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ambient.ogg; sourceTree = "<group>"; };
+		662BF5751E437AB400F79995 /* ForestCave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForestCave.png; sourceTree = "<group>"; };
+		662BF5761E437AB400F79995 /* GreatWaterfalls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreatWaterfalls.png; sourceTree = "<group>"; };
+		662BF5771E437AB400F79995 /* MysticCave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MysticCave.png; sourceTree = "<group>"; };
+		662BF5781E437AB400F79995 /* SolaireBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SolaireBackground.png; sourceTree = "<group>"; };
+		662BF5791E437AB400F79995 /* WaterFall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterFall.png; sourceTree = "<group>"; };
+		662BF5801E437ADC00F79995 /* ErrantCrusader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrantCrusader.png; sourceTree = "<group>"; };
+		662BF5811E437ADC00F79995 /* ErrantMage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrantMage.png; sourceTree = "<group>"; };
+		662BF5821E437ADC00F79995 /* ErrantRanger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrantRanger.png; sourceTree = "<group>"; };
+		662BF5831E437ADC00F79995 /* ErrantRogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrantRogue.png; sourceTree = "<group>"; };
+		662BF5891E437AF100F79995 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		662BF58B1E437AFE00F79995 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		662BF58C1E437AFE00F79995 /* interface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interface.png; sourceTree = "<group>"; };
+		662BF58D1E437AFE00F79995 /* MysticCave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MysticCave.png; sourceTree = "<group>"; };
+		662BF5911E437B3C00F79995 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		662BF5921E437B3C00F79995 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		662BF5941E437B7C00F79995 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tools.cpp; sourceTree = "<group>"; };
+		662BF5951E437B7C00F79995 /* Tools.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tools.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +116,10 @@
 		662BF5511E4367EC00F79995 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				662BF5881E437AE900F79995 /* HUD */,
+				662BF57F1E437ABC00F79995 /* Characters */,
+				662BF5741E437A9100F79995 /* Sounds */,
+				662BF5731E437A8A00F79995 /* Background */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -83,6 +136,13 @@
 		662BF5601E43685400F79995 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				662BF5621E4369C700F79995 /* Main.cpp */,
+				662BF5651E436F4400F79995 /* Menu.cpp */,
+				662BF5681E436F5400F79995 /* Player.cpp */,
+				662BF56B1E436F8200F79995 /* Animator.cpp */,
+				662BF5911E437B3C00F79995 /* Game.cpp */,
+				662BF5941E437B7C00F79995 /* Tools.cpp */,
+				662BF56E1E4370B900F79995 /* Scene.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -90,8 +150,57 @@
 		662BF5611E43685D00F79995 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				662BF5631E4369C700F79995 /* Main.hpp */,
+				662BF5661E436F4400F79995 /* Menu.hpp */,
+				662BF5691E436F5400F79995 /* Player.hpp */,
+				662BF56C1E436F8200F79995 /* Animator.hpp */,
+				662BF56F1E4370B900F79995 /* Scene.hpp */,
+				662BF5921E437B3C00F79995 /* Game.hpp */,
+				662BF5951E437B7C00F79995 /* Tools.hpp */,
 			);
 			name = Headers;
+			sourceTree = "<group>";
+		};
+		662BF5731E437A8A00F79995 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				662BF5751E437AB400F79995 /* ForestCave.png */,
+				662BF5761E437AB400F79995 /* GreatWaterfalls.png */,
+				662BF5771E437AB400F79995 /* MysticCave.png */,
+				662BF5781E437AB400F79995 /* SolaireBackground.png */,
+				662BF5791E437AB400F79995 /* WaterFall.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		662BF5741E437A9100F79995 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				662BF5711E437A1A00F79995 /* Ambient.ogg */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		662BF57F1E437ABC00F79995 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				662BF5801E437ADC00F79995 /* ErrantCrusader.png */,
+				662BF5811E437ADC00F79995 /* ErrantMage.png */,
+				662BF5821E437ADC00F79995 /* ErrantRanger.png */,
+				662BF5831E437ADC00F79995 /* ErrantRogue.png */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		662BF5881E437AE900F79995 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				662BF58B1E437AFE00F79995 /* icon.png */,
+				662BF58C1E437AFE00F79995 /* interface.png */,
+				662BF58D1E437AFE00F79995 /* MysticCave.png */,
+				662BF5891E437AF100F79995 /* Button.png */,
+			);
+			name = HUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +261,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662BF58F1E437AFE00F79995 /* interface.png in Resources */,
+				662BF57B1E437AB400F79995 /* GreatWaterfalls.png in Resources */,
+				662BF5841E437ADC00F79995 /* ErrantCrusader.png in Resources */,
+				662BF5901E437AFE00F79995 /* MysticCave.png in Resources */,
+				662BF57C1E437AB400F79995 /* MysticCave.png in Resources */,
+				662BF57E1E437AB400F79995 /* WaterFall.png in Resources */,
+				662BF5871E437ADC00F79995 /* ErrantRogue.png in Resources */,
+				662BF5721E437A1A00F79995 /* Ambient.ogg in Resources */,
+				662BF58A1E437AF100F79995 /* Button.png in Resources */,
+				662BF57D1E437AB400F79995 /* SolaireBackground.png in Resources */,
+				662BF58E1E437AFE00F79995 /* icon.png in Resources */,
+				662BF5861E437ADC00F79995 /* ErrantRanger.png in Resources */,
+				662BF57A1E437AB400F79995 /* ForestCave.png in Resources */,
+				662BF5851E437ADC00F79995 /* ErrantMage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662BF5701E4370B900F79995 /* Scene.cpp in Sources */,
+				662BF56D1E436F8200F79995 /* Animator.cpp in Sources */,
+				662BF56A1E436F5400F79995 /* Player.cpp in Sources */,
+				662BF5961E437B7C00F79995 /* Tools.cpp in Sources */,
+				662BF5671E436F4400F79995 /* Menu.cpp in Sources */,
+				662BF5641E4369C700F79995 /* Main.cpp in Sources */,
 				662BF54D1E4367EC00F79995 /* ResourcePath.mm in Sources */,
+				662BF5931E437B3C00F79995 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
